@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local configuration/secrets
+.env
+.env.*
+!.env.example
+
+# Frontend build/dependencies
+node_modules/
+frontend/dist/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local databases and data
+*.db
+*.sqlite
+*.sqlite3
+
+# Model artifacts and downloaded weights
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Local model/cache directories
+models/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# TypeScript build cache
+*.tsbuildinfo

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="340" viewBox="0 0 620 340" role="img" aria-labelledby="title desc">
+  <title id="title">Sample khata ledger page</title><desc id="desc">A fictional shop ledger page with dated purchases, a payment received, and a balance. This is sample data, not a real customer's records.</desc>
+  <rect width="620" height="340" fill="#fffdf6"/><rect x="12" y="12" width="596" height="316" fill="none" stroke="#c9d3e3"/>
+  <path d="M52 16V326 M57 16V326" stroke="#b23a2e" stroke-width="1.5"/>
+  <g stroke="#c9d3e3" stroke-width="1"><path d="M14 72H606 M14 112H606 M14 152H606 M14 192H606 M14 232H606 M14 272H606 M14 312H606"/></g>
+  <g fill="#1f2a44" font-family="serif"><text x="310" y="43" font-size="22" text-anchor="middle">श्री गणेश किराणा · नमुना खाता</text><text x="310" y="62" font-size="12" text-anchor="middle">SAMPLE LEDGER · NOT REAL CUSTOMER DATA</text></g>
+  <g font-family="serif" font-size="14" fill="#1f2a44"><text x="70" y="98">01/10</text><text x="150" y="98">Balance B/F</text><text x="556" y="98" text-anchor="end">₹1,250</text><text x="70" y="138">03/10</text><text x="150" y="138">Aashirvaad Atta</text><text x="556" y="138" text-anchor="end">₹230</text><text x="70" y="178">03/10</text><text x="150" y="178">Fortune Sunlite Oil</text><text x="556" y="178" text-anchor="end">₹145</text><text x="70" y="218">05/10</text><text x="150" y="218">Cash received</text><text x="556" y="218" text-anchor="end" fill="#2e6b4f">−₹1,000</text><text x="70" y="258">08/10</text><text x="150" y="258">Salt + Tea</text><text x="556" y="258" text-anchor="end">₹180</text><text x="70" y="298">12/10</text><text x="150" y="298">Biscuits</text><text x="556" y="298" text-anchor="end">₹95</text></g>
+</svg>

@@ -1,0 +1,27 @@
+{
+  "cases": [
+    {
+      "id": "synthetic-example-01",
+      "image": "images/replace-with-a-labelled-ledger-photo.jpg",
+      "language_hint": "Hindi / Marathi / English as written",
+      "expected": {
+        "rows": [
+          {
+            "date": "2026-10-10",
+            "items": "Old Balance",
+            "amount": 2150,
+            "type": "credit",
+            "customer_name": "Test Customer"
+          },
+          {
+            "date": "2026-10-13",
+            "items": "UPI payment",
+            "amount": 1500,
+            "type": "payment",
+            "customer_name": "Test Customer"
+          }
+        ]
+      }
+    }
+  ]
+}

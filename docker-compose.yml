@@ -1,0 +1,29 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      APP_ENV: development
+      LLM_PROVIDER: ollama
+      BASE_URL: http://ollama:11434
+      MODEL_NAME: gemma3:4b
+      DEMO_MODE: "false"
+      RATE_LIMIT_PER_HOUR: "20"
+      REQUEST_TIMEOUT_S: "300"
+      MAX_UPLOAD_MB: "8"
+    depends_on:
+      - ollama
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:latest
+    # Ollama is reachable only on Docker's internal network via http://ollama:11434.
+    # Do not publish the model server on all host interfaces.
+    volumes:
+      - ollama_models:/root/.ollama
+    restart: unless-stopped
+
+volumes:
+  # Model weights only, not user khata data or uploaded photos.
+  ollama_models:
